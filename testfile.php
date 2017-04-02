@@ -41,22 +41,26 @@ while($item = mysqli_fetch_array($results)){
    echo " </tr><tr>";*/
 ;}   
 echo $itemsCollection->numItems;
-var_dump($itemsCollection);
+//var_dump($itemsCollection);
 
 ;?>
 <div class="">
     
 <form action="action">
     <table>
-        <tr>
-            <td><div><input type="text" name=""></div><div><input type="text" name=""></div></td>
+        <tr></td>
             <td><select name="code">
-    <option></option>
-    <option></option>
-    <option></option>
-    <option></option>
+    <option>dasdfsdafsdafasd</option>
+    <option>dasdfasdfadsf</option>
+    <option>dfsadfdasfasd</option>
+    <option>dfdfasdfadfadsd</option>
 </select>
 </td>
+            <td><div style="width: 103px;display:inline-block;float:left;"><input type="text" name="" style="
+    width: 100px;
+"></div><div style="width: 61px;display:inline-block;float:left;"><input type="text" name=""style="
+    width: 60px;
+"></div>
             <td><input type="text" name=""></td>
             <td><input type="text" name=""></td>
             <td><select name="code">
